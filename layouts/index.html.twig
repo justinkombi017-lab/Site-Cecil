@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.description }}">
+  <meta name="theme-color" content="#f3f1e9">
+  <title>{{ page.title }}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ site.baseurl }}css/site.css">
+</head>
+<body id="top">
+  <a class="skip-link" href="#main-content">Aller au contenu</a>
+  <header class="site-header">
+    <a class="wordmark" href="{{ site.baseurl }}" aria-label="Justin Kombi, accueil"><span>J</span>K<span class="wordmark-dot">.</span></a>
+    <nav aria-label="Navigation principale">
+      <a href="#about">À propos</a>
+      <a href="#parcours">Parcours</a>
+      <a href="#projets">Projets</a>
+      <a href="#inspirations">Inspirations</a>
+    </nav>
+  </header>
+  <div id="main-content">{{ page.content }}</div>
+  <footer class="site-footer">
+    <a class="wordmark" href="#top" aria-label="Retour en haut">J<span>K</span><span class="wordmark-dot">.</span></a>
+    <p>JUSTIN KOMBI <span>·</span> SITE PERSONNEL</p>
+    <a class="footer-top" href="#top">RETOUR EN HAUT <span aria-hidden="true">&#8593;</span></a>
+  </footer>
+</body>
+</html>
