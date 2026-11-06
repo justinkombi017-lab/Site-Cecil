@@ -15,7 +15,7 @@ description: Bienvenue sur l'espace personnel de Justin Kombi.
 			<p class="hero-index" aria-hidden="true">01 <span>—</span> 04</p>
 		</div>
 		<figure class="hero-portrait">
-			<img src="/jk.jpg" alt="Portrait de Justin Kombi en costume bleu" fetchpriority="high">
+			<img src="jk.jpg" alt="Portrait de Justin Kombi en costume bleu" fetchpriority="high">
 			<figcaption><span>JUSTIN KOMBI</span><span>EN QUELQUES MOTS</span></figcaption>
 		</figure>
 		<span class="hero-side-note" aria-hidden="true">UNIVERS PERSONNEL · JK</span>
